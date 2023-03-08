@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat')
+
+BODY {
+	font-family: 'Montserrat', Regular400;
+}
+
+
 DIV {
 	border: 1px solid #000000;
 }
@@ -25,14 +32,21 @@ DIV {
 	
 #Footer-left {
 	float:left;
-	width:399px; /*49.5*/
+	width:49.5;
 	height:50px;
 	border:1px solid green;
 }
 
 #Footer-right {
 	float:right;
-	width:399px; /*49.5*/
+	width:49.5;
 	height:50px;
 	border: 1px solid red;
+}
+
+@media only screen and (max-width: 998px) {
+	#Footer, #MainContent, #Header {
+		width:100%;
+		
+	}
 }
