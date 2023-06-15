@@ -21,6 +21,31 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.button-1 {
+	appearance: none;
+	background: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	
+	padding: 10px 20px;
+	border-radius: 2px;
+	color: #212121;
+	font-size: 11px;
+	font-weight: 600;
+	margin: 0 5px;
+	transition: 0.4s;
+}
+
+.button-1 {
+	color: #FFFFFF;
+	border: 3px solid #AD1520;
+}
+
+.button-1:hover {
+	color: #FFF;
+	background-color: #AD1520;
+}
 </style>
 
 <!-- NAVBAR STARTS HERE -->
@@ -93,9 +118,13 @@ body {
           <source src="G:\Shared drives\2023 Information Software Technology\Ethan.Cao\MyFirstWebsite\2023IST-Website-Ethan.Cao\working documents\Video 1.mp4" type="video/mp4"></source>
         </video>
 		 <div class="video-overlay">
-            <h2 class= <h2 class="text-center" style="font-size: rem; font-family: Arial, sans-serif; color: red;">Awake's Guide</h2>
-			<button type="button-1" class="btn btn-primary">Primary</button>
-			<button-2 type="button-2" class="btn btn-primary">Secondary</button-2>
+            <b><h2 class= <h2 class="text-center" style="font-size: 60px; font-family: Arial, sans-serif; color: red;">Awake's Guide</h2></b>
+			<div class="button-container">
+			<center>
+		<button class="button button-1">Primary</button>
+		<button class="button button-1">Secondary</button>
+		</center>
+        </div>
           </div>
         </div>
 		</div>
@@ -104,51 +133,15 @@ body {
 
 <!-- HOME COLUMN FILL ENDS HERE -->
 
-<!-- HERO SLIDER STARTS HERE -->
-
-<div class="border">
-<div class="container-fluid">
-  <div class="row">
-    <div class="col">
-	<div class="card-body">
-		<h2 style="font-size: rem; font-family: Arial, sans-serif; color: white;">Latest News</h2>
-		<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="..." class="d-block w-3" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-3" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-          <p class="card-text" style="font-size: rem; font-family: Arial, sans-serif; color: white;">Brief description of the news article</p>
-          <a href="#" class="btn btn-primary">Read More</a>
-        </div>
-</div>
-</div>
-</div>
-</div>
-
-<!-- HERO SLIDER ENDS HERE -->
 <!-- Extra Text/Introduction Column STARTS HERE -->
-
 <div class="container-fluid">
 	<div class="row">
 	<div class="col">
 	<div class="card">
 	<div class="border">
+	<center>
+<h5><b>About this Website</h5></b>
+</center>
 	<div class="p-3 mb-2 bg-dark text-white">
 	<p>Are you tired of struggling in Valorant and not knowing how to improve? Look no further than Awake's Valorant Guide. 
 	This guide is the ultimate resource for players looking to level up their game and climb the ranks, with comprehensive coverage of 
@@ -168,10 +161,7 @@ body {
 	<p>So why wait? If you're serious about improving your gameplay and climbing the ranks in Valorant, Awake's Valorant Guide is the ultimate resource. 
 	Welcome to the guide and happy gaming!</p>
 
-	<center>
-<h5><b>About this Website</h5></b>
-</center>
-
+</div>
 </div>
 </div>
 </div>
@@ -179,17 +169,53 @@ body {
 </div>
 
 <!-- Extra Text/Introduction Column ENDS HERE -->
+<!-- HERO SLIDER STARTS HERE -->
+<br>
+<center>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col">
+	<div class="card-body">
+		<h2 style="font-size: rem; font-family: Arial, sans-serif; color: white;">View The Latest News</h2>
+		<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="G:\Shared drives\2023 Information Software Technology\Ethan.Cao\MyFirstWebsite\2023IST-Website-Ethan.Cao\working documents\HERO SLIDER 2" class="d-block w-3" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+          <p class="card-text" style="font-size: rem; font-family: Arial, sans-serif; color: white;">Breaking News! Night Market is out again</p>
+          <div class="button-container">
+		<button class="button button-1">Read More</button>
+        </div>
+<br>
+</div>
+</div>
+<br>
+<br>
+</div>
+</div>
+</center>
+<!-- HERO SLIDER ENDS HERE -->
 
 <!-- VIDEO PLAYER STARTS HERE -->
-
 <div class="container-fluid">
   <div class="row">
     <div class="col">
       <div class="card">
 	  <div class="p-3 mb-2 bg-dark text-white">
-	  <center>
-<h6><b>The Basics</h6></b>
-</center>
+	  
+ <b><h3 class= <h2 class="text-center" style="font-size: 30px; font-family: Arial, sans-serif; color: white;">Master the Basics</h3></b>
+
 
 <br>
 
